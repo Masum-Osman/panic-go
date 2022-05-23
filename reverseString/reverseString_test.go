@@ -60,3 +60,9 @@ func TestReverseString(t *testing.T) {
 		}
 	*/
 }
+
+func BenchmarkReverseString(b *testing.B) {
+	for i := 0; i < b.N; i++ {
+		ReverseString("masum")
+	}
+}

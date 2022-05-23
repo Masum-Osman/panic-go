@@ -1,0 +1,6 @@
+mode: set
+panic-go/reverseString/reverseString.go:5.37,6.13 1 1
+panic-go/reverseString/reverseString.go:10.2,11.35 2 1
+panic-go/reverseString/reverseString.go:15.2,15.36 1 1
+panic-go/reverseString/reverseString.go:6.13,8.3 1 1
+panic-go/reverseString/reverseString.go:11.35,13.3 1 1

@@ -1,0 +1,10 @@
+mode: set
+panic-go/main.go:7.13,11.2 3 0
+panic-go/main.go:13.24,15.2 1 0
+panic-go/main.go:17.24,19.2 1 0
+panic-go/main.go:21.18,22.15 1 0
+panic-go/main.go:27.2,27.24 1 0
+panic-go/main.go:22.15,23.35 1 0
+panic-go/main.go:23.35,25.4 1 0
+panic-go/math.go:3.24,5.2 1 1
+panic-go/math.go:7.29,9.2 1 1

@@ -13,9 +13,16 @@ func TestAdd(t *testing.T) {
 
 func TestMultiply(t *testing.T) {
 	got := Multiply(45, 1)
-	want := 450
+	want := 45
 
 	if want != got {
 		t.Errorf("got %q, wanted %q", got, want)
+	}
+
+}
+
+func BenchmarkMultiply(b *testing.B) {
+	for i := 0; i < b.N; i++ {
+		Multiply(4, 6)
 	}
 }
